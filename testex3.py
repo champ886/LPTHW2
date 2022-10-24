@@ -1,0 +1,1 @@
+print("The number of apartments in my buiding are:", 4 + 4 / 2)
