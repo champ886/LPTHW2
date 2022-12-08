@@ -17,6 +17,7 @@ class Cat(Animal):
     def __init__(self, name):
         ## from self get attribute name and set it to name
         self.name = name
+        #self.mary = mary
 
     def my_name_cat(self):
         print(self.name)
@@ -42,6 +43,9 @@ class Employee(Person):
         super(Employee, self).__init__(name)
         ## from self get attribute salary and set to salary
         self.salary = salary
+
+    def my_employee(self):
+        print(self.salary)
 
 
 ## make a class fish that is-a object
@@ -92,6 +96,17 @@ mary.my_name_person()
 
 #print(mary)
 
-print(mary.pet)
+print("mary.pet==>", mary.pet)
 
+#satan.mary
+
+frank.my_employee()
+
+frank.name 
+
+
+#calling each attribute directly from the __init__  inheritance
+print(frank.name, frank.salary)
+
+#frank.my_employee(salary)
 
